@@ -10,12 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171107225911) do
-
-  create_table "user_credentials", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 20171108005057) do
 
   create_table "user_models", force: :cascade do |t|
     t.string "email", default: "", null: false
